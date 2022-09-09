@@ -14,3 +14,4 @@ int main(void)
 		putchar(love);
 	putchar('\n');
 	return (0);
+}
