@@ -2,18 +2,18 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main - Entry point
+ * main - Entry point
  *
- *Return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
 
 	char love;
-	for (love = 'a'; love <= 'z'; love++);
-	putchar(love);
-	for (love = 'A'; love <= 'Z'; love++);
 
+	for (love = 'a'; love <= 'z'; love++)
+		putchar(love);
+	for (love = 'A'; love <= 'Z'; love++)
 		putchar(love);
 	putchar('\n');
 	return (0);
