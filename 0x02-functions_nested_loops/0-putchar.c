@@ -1,12 +1,13 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - entry point
+ * main - print _putchar, followed by a new line
  *
- * Return: 0
+ * Return: always 0 (success)
  */
 int main(void)
 {
 	printf("p\nu\nt\nc\nh\na\nr");
+
 	return (0);
 }
