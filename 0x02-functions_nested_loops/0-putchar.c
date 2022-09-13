@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	printf("p\nu\nt\nc\nh\na\nr");
+	printf("putchar\n");
 
 	return (0);
 }
