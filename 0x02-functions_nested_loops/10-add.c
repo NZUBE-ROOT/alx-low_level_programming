@@ -5,7 +5,7 @@
  * @b: int to be added to a
  * return: sum of a and b
  */
-void print_to_98(int a, int b)
+int add(int a, int b)
 {
 	int c;
 
