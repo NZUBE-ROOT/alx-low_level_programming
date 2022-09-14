@@ -6,7 +6,7 @@
  *  @c: the character to be checked
  *  Return: 1 if cis a letter, 0 otherwise
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	return ((c >= 'a' && c <= 'z') || (c >= 'a' && c <= 'z'));
 }
