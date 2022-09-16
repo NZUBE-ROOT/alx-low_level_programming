@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_square - draws a diagonal line on the terminal.
- * @n:  is the number of times the character \ should be printed
+ * @size: is the number of times the character \ should be printed
  */
 void print_square(int size)
 {
