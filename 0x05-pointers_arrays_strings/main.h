@@ -1,11 +1,11 @@
-fndef _MAIN_H_
+#ifndef _MAIN_H_
 #define _MAIN_H_
 void _print_rev_recursion(char *s);
 /**
-* _atoi - convert char to int
-* @s: string
-* Return: returns a value
-*/
+ * _atoi - convert char to int
+ * @s: string
+ * Return: returns a value
+ */
 int _atoi(char *s);
 /**
  * _strcpy - main function
