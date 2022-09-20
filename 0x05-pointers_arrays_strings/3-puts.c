@@ -6,6 +6,11 @@
  */
 void _puts(char *str)
 {
-	char string[] = "moma";
-		printf("%s", string);
+	int i;
+
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		_putchar(str[i]);
+	}
+		_putchar('\n');
 }
