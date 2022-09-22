@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ * main - month
+ * Return: 0 Always
+ */
 int main(void)
 {
 int n;
