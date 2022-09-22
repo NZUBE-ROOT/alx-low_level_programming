@@ -1,15 +1,14 @@
 #include "main.h"
 /**
- * *_strncat  - concatenates two strings
+ * *_strncpy - concatenates two strings
  * @dest: string to be apended
  * @src: string added
  * @n: number:wq
  *
  * Return: a pointer
  */
-char *_strncat(char *dest, char *src, int n)
-{
-	int i;
+char *_strncpy(char *dest, char *src, int n)
+{	int i;
 
 	i = 0;
 
