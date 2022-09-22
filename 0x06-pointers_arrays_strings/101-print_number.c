@@ -25,8 +25,7 @@ void print_number(int n)
 	}
 	abs = n;
 	abSCount = n;
-
-        while (abSCount > 0)
+	while (abSCount > 0)
 	{
 		abSCount /= 10;
 		c++;
